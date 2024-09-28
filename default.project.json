@@ -23,6 +23,29 @@
       }
     },
 
+    "StarterGui": {
+      "ScreenGui": {
+        "$className": "ScreenGui",
+        "MainFrame": {
+          "$className": "Frame",
+          "PlayButton": {
+            "$className": "TextButton",
+            "PlayButtonScript": {
+              "$className": "LocalScript",
+              "$path": "src/startergui/playbutton/play_button_script.luau"
+            }
+          },
+          "CreditsButton":{
+            "$className": "TextButton",
+            "CreditsButtonScript":{
+              "$className": "LocalScript",
+              "$path": "src/startergui/creditsbutton/credits_button_script.lua"
+            }
+          }
+        }
+      }
+    },
+
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true
