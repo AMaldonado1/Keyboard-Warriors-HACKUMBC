@@ -32,14 +32,14 @@
             "$className": "TextButton",
             "PlayButtonScript": {
               "$className": "LocalScript",
-              "$path": "src/startergui/playbutton/play_button_script.luau"
+              "$path": "src/startergui/screengui/mainframe/playbutton/"
             }
           },
           "CreditsButton":{
             "$className": "TextButton",
             "CreditsButtonScript":{
               "$className": "LocalScript",
-              "$path": "src/startergui/creditsbutton/credits_button_script.lua"
+              "$path": "src/startergui/screengui/mainframe/creditsbutton/"
             }
           }
         }
